@@ -20,9 +20,107 @@ for i in (1,a+1):
  while(n!=0):
    x=n%10
    rev=rev*10+x
-   n=n/10
+   n=int(n/10)
  if(temp==rev):
    print("palindrome")
  else:
  print("Not a palindrome")
  
+/////
+armstrong number:
+n=int(input("Enter a number"))
+rev=0,i=0
+number=n
+temp=n
+while(n>0):
+  n=n//10
+  i++
+while(number>0):
+ num=number%10
+ rev=rev+n**i
+ number=number//10
+if(temp==rev):
+ print("palindrome")
+else:
+print("Not a palindrome")
+
+(0r)
+
+n=153
+temp=n
+while(n>0):
+  x=n/10
+  rev=rev*rev*rev+x;
+  n=n//10
+ if(temp==rev):
+   print("palindrome")
+ else:
+   print("Not a palindrome")
+   
+   
+s=int(input("Enter side"))
+l=int(input("Enter length"))
+b=int(input("Enter breadth"))
+h=int(input("Enter height"))
+print("area of square:",s*s)
+print("area of rectangle:",l*b)
+print("area of triangle:",(1/2)*b*h)
+
+
+a=int(input("Enter the value1"))
+b=int(input("Enter value2"))
+c=int(input("Enter vallue3"))
+if(a==b):
+    if(a>c):
+        temp=c
+        c=b
+        b=a
+    else:
+        temp=a
+        a=b
+        b=c
+elif(a==c):
+    if(a>b):
+        temp=b
+        b=a
+        a=c
+    else:
+        temp=a
+        a=c
+        c=b
+elif(b==c):
+    if(b>a):
+        temp=a
+        a=b
+        b=c
+    else:
+        temp=b
+        b=c
+        c=a
+elif(a>b and a>c):
+    if(b>c):
+        temp=c
+        c=b
+        b=a
+    else:
+        temp=b
+        b=c
+        c=a
+elif(b>c and b>a):
+    if(a>c):
+        temp=c
+        c=a
+        a=b
+    else:
+        temp=a
+        a=c
+        c=b
+
+else:
+    temp=b
+    b=c
+    c=a
+print(temp,a,b)    
+
+   
+   

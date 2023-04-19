@@ -56,7 +56,8 @@ while(n>0):
    print("palindrome")
  else:
    print("Not a palindrome")
-   
+   /////
+   areas:
    
 s=int(input("Enter side"))
 l=int(input("Enter length"))
@@ -65,7 +66,8 @@ h=int(input("Enter height"))
 print("area of square:",s*s)
 print("area of rectangle:",l*b)
 print("area of triangle:",(1/2)*b*h)
-
+/////
+swaping
 
 a=int(input("Enter the value1"))
 b=int(input("Enter value2"))
@@ -122,5 +124,17 @@ else:
     c=a
 print(temp,a,b)    
 
-   
+ ///////
+ fibonacci:
+ f=0
+l=1
+i=0
+n=int(input("enter number"))
+print(f)
+while(i<n-1):
+    result=f+l
+    f=l
+    l=result
+    print(result)
+    i+=1
    

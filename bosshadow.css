@@ -21,6 +21,13 @@ html,body{
     box-shadow: 7px 8px 24px -9px rgb(red, green, blue);
 
 }
+
+
+///
+links
+https://colorhunt.co/
+
+https://www.cssmatic.com/box-shadow
 .box:hover{
     background-color: lightskyblue;
     transform: scale(1.1);

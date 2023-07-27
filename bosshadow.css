@@ -1,0 +1,27 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    position: center;
+}
+/*rgb colors:red,green and blue*/
+/*FFEECC :ff:red,EE:green,CC:blue*/
+.box{
+    height:40%;
+    width:60%;
+    background-color: #FFEECC;
+    border:1px solid black;
+    margin-top:10%;
+    border-radius: 20px;
+    transition: transform o.35 ease-in-out;
+    box-shadow: 7px 8px 24px -9px rgb(red, green, blue);
+
+}
+.box:hover{
+    background-color: lightskyblue;
+    transform: scale(1.1);
+}

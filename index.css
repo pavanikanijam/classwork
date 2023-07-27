@@ -1,0 +1,19 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.parent{
+    height: 30%;
+    width: 35%;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    left:200px
+    /* top left */
+    /* bottom right */
+
+}

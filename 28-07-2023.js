@@ -119,4 +119,47 @@ console.log("value  of val:"+val);
 val="pavani"
 console.log("string name is:"+val);
 var isCheck=true;
-console.log(isCheck);
+console.log("boolean value is:"+isCheck);
+/////////
+arrays in java script:
+////////
+java script is most flexible,it behave strictly
+declaraction in java script:
+there are 2 types for declaration by usin var keyword and let keyword:
+     first declaration:
+    var num=[1,2,3]
+console.log("Array value are:"+num);
+ for multiple values:///
+ var num=[1,2,3,"pavani",1.5]
+var mularr=[10,20,[1,2,3]];
+console.log("array values are:"+num);
+console.log("multiple array values are:"+mularr);
+//////////////
+conditional statements
+////////////////
+////if else
+var num=10;
+if(num>5){
+    console.log("num is greater than 10");
+}
+else{
+    console.log("num is less tha 10");
+}
+
+
+/////if else if
+(printing wishes based on time)
+var num=17;
+if(num>=1 && num<12){
+    console.log("Good morning");
+}
+else if(num>=12 && num<16){
+    console.log("good afternopon");
+
+}else if(num>=16 && num<18){
+    console.log("good evening");
+}
+else{
+    console.log("good night");
+}
+

@@ -162,4 +162,33 @@ else if(num>=12 && num<16){
 else{
     console.log("good night");
 }
+//////////
+if else
+    example(even or odd number):
+var num=12;
+if(num%2==0){
+    console.log(num+" is even number");
+}
+else {
+    console.log(num+"odd number");
+}
+//////
+switch////
+    var num=1;
+switch(num){
+    case 0:
+        console.log("it is zero");
+        break;
+    case 1:
+        console.log("it is one");
+        break;
+    case 2:
+        console.log("it is two");
+        break;
+    default:
+        console.log("greater than 2");
+        break;
+}
+///////////
+
 

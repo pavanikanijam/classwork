@@ -190,5 +190,61 @@ switch(num){
         break;
 }
 ///////////
+(printing a day in a week)
+var num=1;
+switch(num){
+    case 0:
+        console.log("sunday");
+        break;
+    case 1:
+        console.log("monday");
+        break;
+    case 2:
+        console.log("tues day");
+        break;
+        var num=1;
+    case 3:
+        console.log("wednesday");
+        break;
+    case 4:
+        console.log("thursday");
+        break;
+    case 5:
+        console.log("friday");
+        break;
+    case 6:
+        console.log("saturday");
+        break;
+
+    default:
+        console.log("not entered correct day");
+        break;
+}
 
 
+
+/////////////////
+while and do while are same
+     var num=prompt("enter any digit");
+ var count=0;
+ do{
+    console.log("hello");
+    count++;
+ }while(count<num);
+
+///
+task1
+///
+var num=prompt("enter any digit");
+var i;
+for(i=1;i<=num;i++){
+    console.log(i*n);
+}/////
+task2////
+var num=prompt("enter any digit");
+
+var count=1;
+do{
+   console.log("tables are",num*count)
+   count++;
+}while(10);
